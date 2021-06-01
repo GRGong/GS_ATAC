@@ -1,0 +1,67 @@
+track Zebrafish_ATAC
+compositeTrack on
+configurable on
+shortLabel Zebrafish_ATAC
+longLabel Zebrafish_ATAC
+dragAndDrop subTracksq
+type bigWig 0 100
+autoScale off
+viewLimits 0:100
+configurable on
+visibility full
+maxHeightPixels 64:64:11
+showSubtrackColorOnUi on 
+
+track Homo1
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/Homo1.bw
+shortLabel h1
+longLabel h1
+type bigWig
+autoScale on
+color 153, 51, 51
+parent Zebrafish_ATAC
+
+track Homo2
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/Homo2.bw
+shortLabel h2
+longLabel h2
+type bigWig
+autoScale on
+color 153, 51, 51
+parent Zebrafish_ATAC
+
+track Homo3
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/Homo3.bw
+shortLabel h3
+longLabel h3
+type bigWig
+autoScale on
+color 153, 51, 51
+parent Zebrafish_ATAC
+
+track WT1
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/WT1.bw
+shortLabel w1
+longLabel w1
+type bigWig
+autoScale on
+color 51,102,51
+parent Zebrafish_ATAC
+
+track WT2
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/WT2.bw
+shortLabel w2
+longLabel w2
+type bigWig
+autoScale on
+color 51,102,51
+parent Zebrafish_ATAC
+
+track WT3
+bigDataUrl https://github.com/GRGong/GS_ATAC/raw/main/WT3.bw
+shortLabel w3
+longLabel w3
+type bigWig
+autoScale on
+color 51,102,51
+parent Zebrafish_ATAC

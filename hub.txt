@@ -1,0 +1,5 @@
+hub Zebrafish_ATAC
+shortLabel Zebrafish_ATAC
+longLabel Zebrafish_ATAC
+genomesFile genomes.txt
+email two216@qq.com
